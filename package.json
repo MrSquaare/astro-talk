@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "name": "astro-talk",
+  "type": "module",
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.50.0-beta.5",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest",
+    "vue": "^3.5.12"
+  },
+  "devDependencies": {
+    "vite": "^5.4.10"
+  }
+}
